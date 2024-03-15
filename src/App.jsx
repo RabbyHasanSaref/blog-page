@@ -15,7 +15,7 @@ function App() {
   }
 
   const handelTime = (id, blogtime) => {
-   setTime(time - blogtime);
+   setTime(time + blogtime);
 
    // remove the book mark
     // console.log('remove book mark', id)
